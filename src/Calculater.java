@@ -4,9 +4,9 @@ public class Calculator {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-		double num1 = InputNumber1.getNumber(scanner);
+		double num1 = input_num1.getNumber(scanner);
 		String op = OperatorInput.getOperator(scanner);
-		double num2 = InputNumber2.getNumber(scanner);
+		double num2 = input_num2.getNumber(scanner);
 
 		double result = 0;
 
