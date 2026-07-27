@@ -5,7 +5,7 @@ public class Calculator {
 		Scanner scanner = new Scanner(System.in);
 
 		double num1 = input_num1.getNumber(scanner);
-		String op = OperatorInput.getOperator(scanner);
+		String op = operatorInput.getOperator(scanner);
 		double num2 = input_num2.getNumber(scanner);
 
 		double result = 0;
